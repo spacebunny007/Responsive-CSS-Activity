@@ -82,15 +82,21 @@ table {
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--dark-gray);
-        color: var(--light-gray);
-    }
+  body {
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+  }
+  header, footer {
+    background-color: var(--black);
+    color: var(--white);
+  }
+  section {
+    background-color: #333;
+    color: var(--white);
+  }
 }
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
-
 
 /* ----- HEADINGS ----- */
 h1, h2, h3, h4{
